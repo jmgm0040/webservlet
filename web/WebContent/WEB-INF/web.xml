@@ -36,5 +36,14 @@
             </plugin>
         </plugins>
     </build>
+ <servlet>
+        <servlet-name>webservlet</servlet-name>
+        <servlet-class>webservlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>webservlet</servlet-name>
+        <url-pattern>/web/webservlet</url-pattern>
+    </servlet-mapping>
 
 </project>
